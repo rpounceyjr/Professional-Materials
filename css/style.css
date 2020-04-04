@@ -1,0 +1,31 @@
+body{
+    font-family: Martel, Arial, sans-serif;
+    background-image: url("../images/ignasi_pattern_s.png");
+}
+p {
+    line-height: 200%;
+}
+.container {
+    padding-top:125px;
+    padding-bottom:100px;
+    max-width: 960px;
+}
+.navbar-brand {
+    height: 70px;
+    font-size: 30px;
+}
+
+.card-body {
+    background: rgba(135, 168, 201, 0.1);
+    height: 120px;
+}
+.card-img-top {
+    height: 200px;
+}
+
+@media (max-width: 990px) {
+    .card {
+        margin:10px;
+        align-content: center;
+    }
+}
