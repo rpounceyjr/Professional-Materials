@@ -14,7 +14,9 @@ p {
     height: 70px;
     font-size: 30px;
 }
-
+.card {
+    margin: 10px;
+}
 .card-body {
     background: rgba(135, 168, 201, 0.1);
     height: 120px;
