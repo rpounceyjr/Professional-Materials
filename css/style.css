@@ -19,10 +19,15 @@ p {
 }
 .card-body {
     background: rgba(135, 168, 201, 0.1);
-    height: 120px;
 }
+
 .card-img-top {
     height: 200px;
+    border-bottom: 2px solid grey;
+}
+
+.card-text {
+    font-size: small;
 }
 
 @media (max-width: 990px) {
